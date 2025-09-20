@@ -30,6 +30,11 @@
         "link": "https://www.youtube.com/@kreno"
     },
     {
+        "role": "helper",
+        "name": "Nimrod",
+        "link": "https://www.youtube.com/channel/UC2enftyzcdGYr2Qy8ZdV6bQ"
+    },
+    {
         "role": "dev",
         "name": "Prometheus",
         "link": "https://www.youtube.com/@Prometheus_Alt"
