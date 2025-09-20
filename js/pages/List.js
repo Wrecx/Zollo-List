@@ -52,7 +52,11 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Difficulty</div>
-                            <p>{{ level.password || 'Ultra Demon' }}</p>
+                            <p>{{ level.difficulty || 'Ultra Demon' }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">Status</div>
+                            <p>{{ level.status || 'Rated' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
