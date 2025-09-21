@@ -3,11 +3,17 @@
     "name": "Precipitance",
     "author": "Extravagon",
     "creators": ["Extravagon"],
-    "verifier": "Firelia",
-    "verification": "https://www.youtube.com/watch?v=UHCaIVDYSIU",
+    "verifier": "MechanicGD",
+    "verification": "https://www.youtube.com/watch?v=cjFOCYQ1c6A",
     "percentToQualify": 56,
     "difficulty": "Extreme Demon",
     "status": "Rated",
     "records": [
+        {
+            "user": "Firelia",
+            "link": "https://www.youtube.com/watch?v=UHCaIVDYSIU",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
