@@ -2,12 +2,18 @@
     "id": 35448603,
     "name": "Blade of Justice",
     "author": "Manix648",
-    "creators": ["Manix648"],
-    "verifier": "Firelia",
-    "verification": "https://www.youtube.com/watch?v=6Esqpf7zJc4&t=1s&ab_channel=FireeX%5BGD%5D",
+    "creators": ["Manix648", "LazerBlitz"],
+    "verifier": "MechanicGD",
+    "verification": "https://www.youtube.com/watch?v=z2D8v53eX9g",
     "percentToQualify": 56,
     "difficulty": "Extreme Demon",
     "status": "Rated",
     "records": [
+        {
+            "user": "Firelia",
+            "link": "https://www.youtube.com/watch?v=6Esqpf7zJc4",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }

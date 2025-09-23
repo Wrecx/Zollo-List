@@ -3,12 +3,18 @@
     "name": "Bloodbath",
     "author": "Riot",
     "creators": ["Riot"],
-    "verifier": "Firelia",
-    "verification": "https://www.youtube.com/watch?v=UOM9d6RI8sY&ab_channel=FireeX%5BGD%5D",
+    "verifier": "MechanicGD",
+    "verification": "https://www.youtube.com/watch?v=Jlem_IT1228",
     "percentToQualify": 56,
     "difficulty": "Extreme Demon",
     "status": "Rated",
     "records": [
+        {
+            "user": "Firelia",
+            "link": "https://www.youtube.com/watch?v=UOM9d6RI8sY&ab_channel=FireeX%5BGD%5D",
+            "percent": 100,
+            "hz": 360
+        },
         {
             "user": "bjenev",
             "link": "https://www.youtube.com/watch?v=75oIbCILlkQ&ab_channel=bjenev",

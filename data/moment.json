@@ -3,11 +3,17 @@
     "name": "Moment",
     "author": "Lexycat",
     "creators": ["Lexycat"],
-    "verifier": "Firelia",
-    "verification": "https://www.youtube.com/watch?v=SZyBDY98k8U&ab_channel=FireeX%5BGD%5D",
+    "verifier": "MechanicGD",
+    "verification": "https://www.youtube.com/watch?v=Dd8GGvN2UYs",
     "percentToQualify": 56,
     "difficulty": "Extreme Demon",
     "status": "Rated",
     "records": [
+        {
+            "user": "Firelia",
+            "link": "https://www.youtube.com/watch?v=SZyBDY98k8U&ab_channel=FireeX%5BGD%5D",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }

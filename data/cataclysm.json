@@ -3,11 +3,17 @@
     "name": "Cataclysm",
     "author": "Ggb0y",
     "creators": ["Ggb0y"],
-    "verifier": "Firelia",
-    "verification": "https://www.youtube.com/watch?v=qv318qkjvRU",
+    "verifier": "MechanicGD",
+    "verification": "https://www.youtube.com/watch?v=hi58nYL42Z4",
     "percentToQualify": 56,
     "difficulty": "Extreme Demon",
     "status": "Rated",
     "records": [
+        {
+            "user": "Firelia",
+            "link": "https://www.youtube.com/watch?v=qv318qkjvRU",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }

@@ -1,17 +1,17 @@
 {
-    "id": 88943354,
-    "name": "Proteus",
-    "author": "SpergQuos",
-    "creators": ["SpergQuos"],
+    "id": 62214792,
+    "name": "Azurite",
+    "author": "Sillow",
+    "creators": ["Sillow"],
     "verifier": "MechanicGD",
-    "verification": "https://www.youtube.com/watch?v=ATHLBbGl3Oo",
+    "verification": "https://www.youtube.com/watch?v=pnLAY6kC3MU",
     "percentToQualify": 56,
     "difficulty": "Extreme Demon",
     "status": "Rated",
     "records": [
         {
             "user": "Firelia",
-            "link": "https://www.youtube.com/watch?v=MAj8bQB9cZw",
+            "link": "https://www.youtube.com/watch?v=5otyu46cTQg",
             "percent": 100,
             "hz": 360
         }
