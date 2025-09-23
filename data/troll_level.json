@@ -9,5 +9,11 @@
     "difficulty": "Extreme Demon",
     "status": "Rated",
     "records": [
+        {
+            "user": "MechanicGD",
+            "link": "https://www.youtube.com/watch?v=hzRJpvcjtNQ&ab_channel=MechanicGD",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
