@@ -59,6 +59,7 @@
 }
 .page-list .level-container .level .video {
     aspect-ratio: 16/9;
+    border: 5px var(--color-primary) solid;
 }
 .page-list .level-container .level .stats {
     display: flex;
@@ -125,4 +126,28 @@
 }
 .page-list .meta .editors li a:hover {
     text-decoration: underline;
+}
+
+.page-list .list .level button:hover {
+    animation: level-button-hover-animation 0.4s ;
+    animation-fill-mode: forwards;
+}
+
+.page-list .list .level button{
+    animation: level-button-hover-animation-back 0.4s ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes level-button-hover-animation {
+  from {padding-left: 1rem}
+  to {padding-left: 1.8rem}
+}
+
+@keyframes level-button-hover-animation-back {
+  from {padding-left: 1.8rem}
+  to {padding-left: 1rem}
+}
+
+.page-list input{
+    margin-bottom: 20px;
 }

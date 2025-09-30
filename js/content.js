@@ -64,6 +64,7 @@ export async function fetchLeaderboard() {
         scoreMap[verifier] ??= {
             verified: [],
             completed: [],
+            authored: [],
             progressed: [],
         };
         const { verified } = scoreMap[verifier];
@@ -73,7 +74,23 @@ export async function fetchLeaderboard() {
             score: score(rank + 1, 100, level.percentToQualify),
             link: level.verification,
         });
-
+        // Creator
+        const author = Object.keys(scoreMap).find(
+            (u) => u.toLowerCase() === level.author.toLowerCase(),
+        ) || level.author;
+        scoreMap[author] ??= {
+            verified: [],
+            completed: [],
+            authored: [],
+            progressed: [],
+        };
+        const { authored } = scoreMap[author];
+        authored.push({
+            rank: rank + 1,
+            level: level.name,
+            score: score(rank + 1, 100, level.percentToQualify),
+            link: level.verification,
+        });
         // Records
         level.records.forEach((record) => {
             const user = Object.keys(scoreMap).find(
@@ -82,6 +99,7 @@ export async function fetchLeaderboard() {
             scoreMap[user] ??= {
                 verified: [],
                 completed: [],
+                authored: [],
                 progressed: [],
             };
             const { completed, progressed } = scoreMap[user];

@@ -28,14 +28,14 @@ export default {
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
-                                <p class="type-label-lg">#{{ i + 1 }}</p>
+                                <p v-if="ientry.total > 0" class="type-label-lg">#{{ i + 1 }}</p>
                             </td>
                             <td class="total">
-                                <p class="type-label-lg">{{ localize(ientry.total) }}</p>
+                                <p v-if="ientry.total > 0" class="type-label-lg">{{ localize(ientry.total) }}</p>
                             </td>
                             <td class="user" :class="{ 'active': selected == i }">
                                 <button @click="selected = i">
-                                    <span class="type-label-lg">{{ ientry.user }}</span>
+                                    <span v-if="ientry.total > 0" class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>
                         </tr>
@@ -62,6 +62,20 @@ export default {
                         <h2 v-if="entry.completed.length > 0">Completed ({{ entry.completed.length }})</h2>
                         <table class="table">
                             <tr v-for="score in entry.completed">
+                                <td class="rank">
+                                    <p>#{{ score.rank }}</p>
+                                </td>
+                                <td class="level">
+                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                </td>
+                                <td class="score">
+                                    <p>+{{ localize(score.score) }}</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <h2 v-if="entry.authored.length > 0">Creations ({{ entry.authored.length}})</h2>
+                        <table class="table">
+                            <tr v-for="score in entry.authored">
                                 <td class="rank">
                                     <p>#{{ score.rank }}</p>
                                 </td>
