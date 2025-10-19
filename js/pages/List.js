@@ -26,9 +26,14 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i + 1 <= 10" class="type-label-lg blue">#{{ i + 1 }}</p>
-                            <p v-else-if="i + 1 <= 25" class="type-label-lg red">#{{ i + 1 }}</p>
-                            <p v-else-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="i + 1 <= 1" class="type-label-lg difficulty-color-1">#{{ i + 1 }}</p>
+                            <p v-else-if="i + 1 <= 5" class="type-label-lg difficulty-color-2">#{{ i + 1 }}</p>
+                            <p v-else-if="i + 1 <= 10" class="type-label-lg difficulty-color-3">#{{ i + 1 }}</p>
+                            <p v-else-if="i + 1 <= 25" class="type-label-lg difficulty-color-4">#{{ i + 1 }}</p>
+                            <p v-else-if="i + 1 <= 50" class="type-label-lg difficulty-color-5">#{{ i + 1 }}</p>
+                            <p v-else-if="i + 1 <= 75" class="type-label-lg difficulty-color-6">#{{ i + 1 }}</p>
+                            <p v-else-if="i + 1 <= 100" class="type-label-lg difficulty-color-7">#{{ i + 1 }}</p>
+                            <p v-else-if="i + 1 <= 150" class="type-label-lg difficulty-color-8">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
@@ -39,8 +44,13 @@ export default {
                     </tr>
                 </table>
             </div>
+            <img src="assets/pointercrate.png" alt="Discord Logo" class="pointercrate"/>
             <div class="level-container">
                 <div class="level" v-if="level">
+                    <img v-if="level.difficulty == 'Extreme Demon' && level.status == 'Unrated'" src="assets/demon-extreme.png" alt="Extreme Demon Unrated" class="demon-face">
+                    <img v-if="level.difficulty == 'Extreme Demon' && level.status == 'Rated'" src="assets/demon-extreme-featured.png" alt="Extreme Demon Rated" class="demon-face">
+                    <img v-if="level.difficulty == 'Insane Demon' && level.status == 'Unrated'" src="assets/demon-insane.png" alt="Extreme Demon Unrated" class="demon-face">
+                    <img v-if="level.difficulty == 'Insane Demon' && level.status == 'Rated'" src="assets/demon-insane-featured.png" alt="Extreme Demon Rated" class="demon-face">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>

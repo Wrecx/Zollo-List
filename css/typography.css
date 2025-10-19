@@ -228,10 +228,34 @@ p::after,
     display: table;
 }
 
-.blue{
-    color: blue;
+.difficulty-color-1{
+    color: #8f6ab8;
 }
 
-.red{
-    color: red;
+.difficulty-color-2{
+    color: #b86aa5;
+}
+
+.difficulty-color-3{
+    color: #b86a6a;
+}
+
+.difficulty-color-4{
+    color: #b8a66a;
+}
+
+.difficulty-color-5{
+    color: #89b86a;
+}
+
+.difficulty-color-6{
+    color: #6ab8a7;
+}
+
+.difficulty-color-7{
+    color: #786ab8;
+}
+
+.difficulty-color-8{
+    color: #838383;
 }

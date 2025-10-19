@@ -151,3 +151,16 @@
 .page-list input{
     margin-bottom: 20px;
 }
+
+.page-list .pointercrate {
+    position: absolute;
+    right: 0;
+    height: 1000px;
+    width: 0px;
+}
+
+.page-list .level-container .level .demon-face {
+    position: absolute;
+    right: 600px;
+    height: 100px;
+}
