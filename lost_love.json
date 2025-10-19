@@ -1,0 +1,25 @@
+{
+    "id": 85933508,
+    "name": "Lost Love",
+    "author": "TheBlackHell",
+    "creators": ["TheBlackHell"],
+    "verifier": "MechanicGD",
+    "verification": "https://www.youtube.com/watch?v=ohZKNOe2Q7s",
+    "percentToQualify": 56,
+    "difficulty": "Extreme Demon",
+    "status": "Rated",
+    "records": [
+        {
+            "user": "Wrecx",
+            "link": "https://www.youtube.com/watch?v=2k7Od2do-A4",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "kreno",
+            "link": "https://www.youtube.com/watch?v=vOh9iXSKBAM",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}

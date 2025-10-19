@@ -1,0 +1,25 @@
+{
+    "id": 76196489,
+    "name": "Troll Level",
+    "author": "Lexycat",
+    "creators": ["Lexycat"],
+    "verifier": "kreno",
+    "verification": "https://www.youtube.com/watch?v=5PQH7EPAvX0",
+    "percentToQualify": 56,
+    "difficulty": "Extreme Demon",
+    "status": "Rated",
+    "records": [
+        {
+            "user": "Wrecx",
+            "link": "https://www.youtube.com/watch?v=6UPzoFPf8k8&ab_channel=Wrecx",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "MechanicGD",
+            "link": "https://www.youtube.com/watch?v=hzRJpvcjtNQ&ab_channel=MechanicGD",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}

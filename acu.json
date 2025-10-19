@@ -1,0 +1,31 @@
+{
+    "id": 61079355,
+    "name": "Acu",
+    "author": "Neigefeu",
+    "creators": ["Neigefeu"],
+    "verifier": "MechanicGD",
+    "verification": "https://www.youtube.com/watch?v=PeQCERUeqHo",
+    "percentToQualify": 56,
+    "difficulty": "Extreme Demon",
+    "status": "Rated",
+    "records": [
+        {
+            "user": "Wrecx",
+            "link": "https://youtu.be/_R4B_DCKydc",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Firelia",
+            "link": "https://www.youtube.com/watch?v=cRmA8PBOlEk",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "kreno",
+            "link": "https://www.youtube.com/watch?v=gan34I8QerA&pp=ygUJYWN1IGtyZW5v",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id": 88943354,
+    "name": "Proteus",
+    "author": "SpergQuos",
+    "creators": ["SpergQuos"],
+    "verifier": "MechanicGD",
+    "verification": "https://www.youtube.com/watch?v=ATHLBbGl3Oo",
+    "percentToQualify": 56,
+    "difficulty": "Extreme Demon",
+    "status": "Rated",
+    "records": [
+        {
+            "user": "Firelia",
+            "link": "https://www.youtube.com/watch?v=MAj8bQB9cZw",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
